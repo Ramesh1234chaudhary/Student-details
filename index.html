@@ -1,32 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
-</head>
-<body>
-    <fieldset>
-        <legend><h2>Student Details</h2></legend> 
-        
-            <label > Name : </label><input type="text"  placeholder=" Student Name"><br><br>
-                <label > Batch : </label><input type="text"  placeholder="eg :june-22"><br><br>
-                <label> Age:</label><input type="number" placeholder="eg:15"><br><br>
-            <label>Email :</label> <input type="text"   placeholder="example@gmail.com"><br><br>
-            <label>DOB : </label><input type="date"><br><br>
-           <label>
-             Gender:
-           </label>
-             <select name="Gender">
-            <option >--Select Gender--</option>
-            <option> Male</option>
-            <option>Female</option><br><br>
-             </select><br><br>
+    <head>
+        <meta description="Weekly assignment test task">
+        <meta keywords="html, form">
+        <title>Form</title>
+    </head>
+    <body>
+        <fieldset>
+            <legend>Student Details</legend>
+            <p>
+                Name: <input type="text" placeholder="Student Name">
+            </p>
+            <p>
+                Batch: <input type="text" placeholder="eg: June-22">
+            </p>
+            <p>
+                Age: <input type="number" placeholder="eg:15">
+            </p>
+            <p>
+                Email: <input type="email" placeholder="example@gmail.com">
+            </p>
+            <p>
+                DOB <input type="date">
+            </p>
+            <p>
+                Gender:
+                <select name="Gender">
+                    <option>--Select Gender--</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Others</option>
+                </select>
+            </p>
+            <p>
+                <button type="submit">Submit</button>
+            </p>
 
-            
-            <button>Submit</button><br><br>
-             
-         </fieldset>
-</body>
+        </fieldset>
+    </body>
+
 </html>
